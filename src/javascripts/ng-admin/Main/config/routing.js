@@ -18,6 +18,7 @@ function routing($stateProvider, $urlRouterProvider) {
 
     $stateProvider.state('ng-admin', {
         abstract: true,
+        url: '/admin',
         views: {
             'ng-admin': {
                 controller: 'AppController',
